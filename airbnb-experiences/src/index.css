@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 
 nav {
@@ -18,3 +18,24 @@ img {
   margin: 22px 30px;
 }
 
+/* hero section */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+}
+
+.hero-para {
+  color: #222222;
+  margin-top: 0;
+}
