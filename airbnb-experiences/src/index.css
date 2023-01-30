@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
@@ -13,7 +13,7 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.logo {
   padding: 0.5rem;
   margin: 22px 30px;
 }
@@ -31,6 +31,11 @@ img {
   align-self: center;
 }
 
+.hero-title, 
+.hero-para {
+  margin-left: 1rem;
+}
+
 .hero-title {
   margin-bottom: 16px;
 }
@@ -38,4 +43,71 @@ img {
 .hero-para {
   color: #222222;
   margin-top: 0;
+}
+
+/* card */
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  position: relative;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column; 
+  margin: 1rem;
+}
+
+.card-badge {
+  background-color: #fff;
+  position: absolute;
+  margin: 6px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10.24px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+span {
+  padding: 0.1rem;
+}
+
+.star-image {
+  height: 14px;
+} 
+
+.gray {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918E9B;
+}
+
+.card p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #222222;
+}
+
+.price {
+  font-weight: 600;
+} 
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }

@@ -3,7 +3,7 @@ import logo from '../images/Vector.png'
 export default function Navbar() {
     return(
         <nav>
-            <img src={logo} />
+            <img src={logo} className='logo' />
         </nav>
     );
 }
